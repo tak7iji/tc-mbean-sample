@@ -2,6 +2,7 @@
 
   <mbean name="Hello"
          description="Hello MBean"
+         className="com.example.Hello"
          domain="Catalina"
          group="Custom"
          type="com.example.Hello">

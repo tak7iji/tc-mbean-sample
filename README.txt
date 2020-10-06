@@ -1,0 +1,2 @@
+mbeans-descriptor.xmlで、<mbean>のclassName属性にMBean実装クラスを指定する場合、そのクラスはBaseModelMBeanを拡張したクラスにする必要がある。
+className属性を指定しない場合は、BaseModelMBeanを実装する必要はない。
