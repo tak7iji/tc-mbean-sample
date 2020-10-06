@@ -1,0 +1,16 @@
+<mbeans-descriptors>
+
+  <mbean name="Hello"
+         description="Hello MBean"
+         domain="Catalina"
+         group="Custom"
+         type="com.example.Hello">
+
+        <operation name="sayHello"
+            description="say hello"
+            impact="ACTION"
+            returnType="java.lang.String">
+        </operation>
+
+    </mbean>
+</mbeans-descriptors>
